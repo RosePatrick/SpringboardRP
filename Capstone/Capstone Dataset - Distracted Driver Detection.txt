@@ -1,9 +1,10 @@
 Capstone Dataset
 
-The dataset was downloarded from Kaggle competition - State Farm Distracted Driver Detection.
+The dataset was downloaded from Kaggle competition - State Farm Distracted Driver Detection.
 https://www.kaggle.com/c/state-farm-distracted-driver-detection/data
 
-The goal of this Kaggle competition is, given driver images, each taken in a car with a driver doing something in the car (texting, eating, talking on the phone, makeup, reaching behind, etc), predict the likelihood of what the driver is doing in each picture. 
+The goal of this Kaggle competition is:
+Given driver images, each taken in a car with a driver doing something in the car (texting, eating, talking on the phone, makeup, reaching behind, etc), predict the likelihood of what the driver is doing in each picture. 
 
 The 10 classes to predict are:
 c0: safe driving
@@ -20,6 +21,6 @@ c9: talking to passenger
 Dataset size - 102,150 images divided into training and test data.
 Dataset file size - 4GB
 
-The location of the image data set is an Amazon AWS S3 bucket:
+Due to its size, the image data set is is uploaded to an Amazon AWS S3 bucket:
 https://s3.amazonaws.com/jakefromstatefarm/imgs.zip
 The accompanying CSV file outlining the image list is also uploaded in this bucket.
