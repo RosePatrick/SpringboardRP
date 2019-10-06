@@ -1,43 +1,43 @@
-,Filename,Prediction
-0,test/img_1.jpg,operating the radio
-1,test/img_10.jpg,operating the radio
-2,test/img_11.jpg,texting - right
-3,test/img_12.jpg,texting - right
-4,test/img_13.jpg,talking on the phone - right
-5,test/img_15.jpg,drinking
-6,test/img_17.jpg,operating the radio
-7,test/img_18.jpg,drinking
-8,test/img_2.jpg,talking on the phone - right
-9,test/img_20.jpg,operating the radio
-10,test/img_21.jpg,drinking
-11,test/img_22.jpg,safe driving
-12,test/img_23.jpg,talking to passenger
-13,test/img_24.jpg,talking to passenger
-14,test/img_25.jpg,talking on the phone - right
-15,test/img_27.jpg,safe driving
-16,test/img_28.jpg,texting - right
-17,test/img_29.jpg,hair and makeup
-18,test/img_3.jpg,talking on the phone - left
-19,test/img_30.jpg,reaching behind
-20,test/img_31.jpg,texting - left
-21,test/img_32.jpg,talking on the phone - left
-22,test/img_33.jpg,talking on the phone - right
-23,test/img_35.jpg,texting - right
-24,test/img_36.jpg,safe driving
-25,test/img_37.jpg,texting - right
-26,test/img_38.jpg,hair and makeup
-27,test/img_39.jpg,texting - right
-28,test/img_4.jpg,drinking
-29,test/img_40.jpg,talking to passenger
-30,test/img_41.jpg,safe driving
-31,test/img_42.jpg,drinking
-32,test/img_43.jpg,hair and makeup
-33,test/img_44.jpg,talking to passenger
-34,test/img_45.jpg,operating the radio
-35,test/img_46.jpg,operating the radio
-36,test/img_47.jpg,drinking
-37,test/img_48.jpg,operating the radio
-38,test/img_49.jpg,drinking
-39,test/img_7.jpg,texting - left
-40,test/img_8.jpg,texting - left
-41,test/img_9.jpg,operating the radio
+,Filename,Prediction,Actual Label*
+0,test/img_1.jpg,operating the radio,operating the radio
+1,test/img_10.jpg,operating the radio,operating the radio
+2,test/img_11.jpg,texting - right,texting - right
+3,test/img_12.jpg,texting - right,texting - right
+4,test/img_13.jpg,talking on the phone - right,talking on the phone - right
+5,test/img_15.jpg,drinking,talking on the phone - left
+6,test/img_17.jpg,operating the radio,operating the radio
+7,test/img_18.jpg,drinking,drinking
+8,test/img_2.jpg,talking on the phone - right,talking on the phone - right
+9,test/img_20.jpg,operating the radio,operating the radio
+10,test/img_21.jpg,drinking,drinking
+11,test/img_22.jpg,safe driving,safe driving
+12,test/img_23.jpg,talking to passenger,safe driving
+13,test/img_24.jpg,talking to passenger,safe driving
+14,test/img_25.jpg,talking on the phone - right,talking on the phone - right
+15,test/img_27.jpg,safe driving,texting - left
+16,test/img_28.jpg,texting - right,texting - right
+17,test/img_29.jpg,hair and makeup,drinking
+18,test/img_3.jpg,talking on the phone - left,talking on the phone - left
+19,test/img_30.jpg,reaching behind,reaching behind
+20,test/img_31.jpg,texting - left,safe driving
+21,test/img_32.jpg,talking on the phone - left,talking on the phone - left
+22,test/img_33.jpg,talking on the phone - right,talking on the phone - right
+23,test/img_35.jpg,texting - right,texting - right
+24,test/img_36.jpg,safe driving,safe driving
+25,test/img_37.jpg,texting - right,texting - right
+26,test/img_38.jpg,hair and makeup,talking on the phone - left
+27,test/img_39.jpg,texting - right,texting - right
+28,test/img_4.jpg,drinking,drinking
+29,test/img_40.jpg,talking to passenger,talking to passenger
+30,test/img_41.jpg,safe driving,safe driving
+31,test/img_42.jpg,drinking,drinking
+32,test/img_43.jpg,hair and makeup,hair and makeup
+33,test/img_44.jpg,talking to passenger,talking to passenger
+34,test/img_45.jpg,operating the radio,operating the radio
+35,test/img_46.jpg,operating the radio,operating the radio
+36,test/img_47.jpg,drinking,drinking
+37,test/img_48.jpg,operating the radio,safe driving
+38,test/img_49.jpg,drinking,talking on the phone - right
+39,test/img_7.jpg,texting - left,texting - left
+40,test/img_8.jpg,texting - left,texting - left
+41,test/img_9.jpg,operating the radio,operating the radio
