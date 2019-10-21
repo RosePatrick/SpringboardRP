@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Distracted Driver Detection App</title>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans|Raleway&display=swap" rel="stylesheet">
+	<style>
+		* {
+        font-size:20px;
+    }
+  </style>
+</head>
+<body>
+	<h1 style="font-family: 'Raleway';text-align:center;font-size:200%;">Distracted Driver Detection</h1>
+	<p style="font-family: 'Open Sans';"> Upload an image of a driver for classification</p>
+	<input id = "image-selector" type="file">
+  <button id="predict-button">Predict</button><br>
+	<p></p>
+	<img id="selected-image" src=""/>
+  <p style="font-family: 'Open Sans';"> <b>Predicted Label: </b><span id="label"></span></p>
+	<p style="font-family: 'Open Sans';"> <b>Score: </b><span id="score"></span></p>
+
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script>
+    let base64Image;
+    $("#image-selector").change(function(){
+      let reader = new FileReader();
+      reader.onload = function(e) {
+        let dataURL = reader.result;
+        $('#selected-image').attr("src", dataURL);
+        base64Image = dataURL.replace("data:image/jpeg;base64,","");
+        console.log(base64Image);
+      }
+      reader.readAsDataURL($("#image-selector")[0].files[0]);
+      $("#label").text("");
+			$("#score").text("");
+    });
+
+    $("#predict-button").click(function(event){
+      let message = {
+        image: base64Image
+      }
+      console.log(message);
+      $.post("http://127.0.0.1:5000/predict", JSON.stringify(message), function(response){
+        $("#label").text(response.prediction.label);
+				$("#score").text(response.prediction.score.toFixed(4));
+        console.log(response);
+      });
+    });
+  </script>
+</body>
+</html>
