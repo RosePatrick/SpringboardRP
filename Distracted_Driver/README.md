@@ -13,9 +13,3 @@ The aim of this project is given the dataset of driver images, each taken in a c
 * c9: talking to passenger
 
 The model was implemented with Google Cloud Platform AutoML Vision and served with Flask micro web framework.
-
-To run this code with Flask, clone the repository and run the following commands in command prompt:
-
-> set FLASK_APP = app.py
-
-> flask run
