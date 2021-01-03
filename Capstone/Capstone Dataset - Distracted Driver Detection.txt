@@ -21,6 +21,4 @@ c9: talking to passenger
 Dataset size - 102,150 images divided into training and test data.
 Dataset file size - 4GB
 
-Due to its size, the image data set is is uploaded to an Amazon AWS S3 bucket:
-https://s3.amazonaws.com/jakefromstatefarm/imgs.zip
 The accompanying CSV file outlining the image list is also uploaded in this bucket.
