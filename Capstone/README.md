@@ -16,3 +16,5 @@ The aim of this project is given the dataset of driver images, each taken in a c
 ### Dataset
 The dataset used for this problem is the State Farm Distracted Driver dataset available on Kaggle.The dataset contains 102,150 JPG images divided into training and test data. Each image is sized at 640 x 480 pixels. The total dataset file size is 4GB.
 Source: https://www.kaggle.com/c/state-farm-distracted-driver-detection/data
+
+### Files
