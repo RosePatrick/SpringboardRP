@@ -18,3 +18,8 @@ The dataset used for this problem is the State Farm Distracted Driver dataset av
 Source: https://www.kaggle.com/c/state-farm-distracted-driver-detection/data
 
 ### Files
+Capstone_Project_Distracted_Driver_Detection Rev1.ipynb contains the complete Keras model for this project.  
+
+Capstone_Project_Distracted_Driver_Detection.ipynb is the preliminary project work to load and explore the dataset as well as some data augmentation.  
+
+Distracted_Driver_AutoML.ipynb uses the same dataset which has been uploaded to Google Cloud Platform where an AutoML model was derived and tested. The results of the AutoML implementation of this dataset is illustrated here.
