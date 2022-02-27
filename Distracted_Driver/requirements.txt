@@ -17,7 +17,7 @@ itsdangerous==1.1.0
 Jinja2==2.11.3
 jsonify==0.5
 MarkupSafe==1.1.1
-numpy==1.9.1
+numpy==1.21
 post==2019.4.13
 protobuf==3.15.0
 public==2019.4.13
