@@ -30,4 +30,4 @@ requests==2.22.0
 rsa==4.7
 six==1.12.0
 urllib3==1.26.5
-Werkzeug==0.15.6
+Werkzeug==2.2.3
